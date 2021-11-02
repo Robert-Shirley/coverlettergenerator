@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { StrictMode, useState } from "react";
+import ReactDOM from "react-dom";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import PersonalInfo from "./components/PersonalInfo";
 
-function App() {
+const App = () => {
+  const [showForm, setShowForm] = useState(false);
+
+  const handleClick = () => {
+    setShowForm(!showForm);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <PersonalInfo showForm={showForm} />
+      {/* <Experience />
+      <Education /> */}
+      <button style={{ marginTop: "300px" }} onClick={handleClick}>
+        Click
+      </button>
     </div>
   );
-}
+};
 
-export default App;
+ReactDOM.render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+  document.getElementById("root")
+);
