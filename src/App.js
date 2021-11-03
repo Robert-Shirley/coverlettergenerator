@@ -14,11 +14,11 @@ const App = () => {
   return (
     <div>
       <PersonalInfo showForm={showForm} />
-      {/* <Experience />
-      <Education /> */}
-      <button style={{ marginTop: "300px" }} onClick={handleClick}>
+      <Experience showForm={showForm} />
+      <Education showForm={showForm} />
+      {/* <button style={{ marginTop: "300px" }} onClick={handleClick}>
         Click
-      </button>
+      </button> */}
     </div>
   );
 };

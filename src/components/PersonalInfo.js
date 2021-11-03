@@ -11,6 +11,7 @@ const PersonalInfo = (props) => {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [description, setDescription] = useState("");
+
   const { showForm } = props;
 
   if (showForm) {
