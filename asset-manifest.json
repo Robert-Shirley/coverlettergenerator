@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/coverlettergenerator/static/css/main.d1b49f41.chunk.css",
+    "main.js": "/coverlettergenerator/static/js/main.2d4fcc65.chunk.js",
+    "main.js.map": "/coverlettergenerator/static/js/main.2d4fcc65.chunk.js.map",
+    "runtime-main.js": "/coverlettergenerator/static/js/runtime-main.690fa702.js",
+    "runtime-main.js.map": "/coverlettergenerator/static/js/runtime-main.690fa702.js.map",
+    "static/js/2.676008f0.chunk.js": "/coverlettergenerator/static/js/2.676008f0.chunk.js",
+    "static/js/2.676008f0.chunk.js.map": "/coverlettergenerator/static/js/2.676008f0.chunk.js.map",
+    "index.html": "/coverlettergenerator/index.html",
+    "static/css/main.d1b49f41.chunk.css.map": "/coverlettergenerator/static/css/main.d1b49f41.chunk.css.map",
+    "static/js/2.676008f0.chunk.js.LICENSE.txt": "/coverlettergenerator/static/js/2.676008f0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.690fa702.js",
+    "static/js/2.676008f0.chunk.js",
+    "static/css/main.d1b49f41.chunk.css",
+    "static/js/main.2d4fcc65.chunk.js"
+  ]
+}
