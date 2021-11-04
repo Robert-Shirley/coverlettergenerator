@@ -113,3 +113,25 @@ span{
 .unidets{
     font-size: 18px;
 }
+.editB{
+    position: absolute;
+    margin-left: 800px;
+    width: 150px;
+    height: 70px;
+    font-size: xx-large;
+}
+.pdf{
+    position: absolute;
+    margin-left: 1000px;
+    width: 150px;
+    height: 70px;
+    font-size: xx-large;
+}
+.preview{
+    position: fixed;
+    top: 400px;
+    left: 1500px;
+    width: 200px;
+    height: 70px;
+    font-size: xx-large;
+}
