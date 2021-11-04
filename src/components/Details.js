@@ -5,7 +5,6 @@ const Details = (props) => {
       <div
         className="card details grey lighten-5"
         style={{ position: "absolute" }}
-
       >
         <h5
           style={{ paddingTop: "15px", marginTop: "5px", marginBottom: "5px" }}
